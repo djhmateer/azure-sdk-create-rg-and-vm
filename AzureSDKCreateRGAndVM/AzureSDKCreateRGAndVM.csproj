@@ -5,4 +5,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.4.0" />
+    <PackageReference Include="Azure.ResourceManager.Compute" Version="1.0.0-preview.1" />
+    <PackageReference Include="Azure.ResourceManager.Network" Version="1.0.0-preview.1" />
+    <PackageReference Include="Azure.ResourceManager.Resources" Version="1.0.0-preview.2" />
+  </ItemGroup>
+
 </Project>
